@@ -39,9 +39,8 @@ db.musik.insertMany([
 	}
 ])
 
-//cari semua dokumen musik,pengguna
+//cari semua dokumen musik
 db.musik.find()
-db.pengguna.find()
 
 //cari musik rating 4
 db.musik.find({
