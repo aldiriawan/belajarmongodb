@@ -117,35 +117,3 @@ db.pengguna.insertOne({
 db.pengguna.deleteOne({
 	username:"ade29"
 })
-//membuat db postingan dengan tentukan primari keynya
-db.createCollection("posting")
-db.posting.insertMany([
-	{
-		_id: 1,
-		username: "anggiecantik",
-		judul: "Laguku yang asik",
-		isi: "LAgu ini menurutku mantep banget, suka deh",
-	},{
-		_id: 2,
-		username: "aldie3103",
-		judul: "Lagu Zaman Sekarang",
-		isi: "LAgu zaman Sekarang kurang, kebanyakan EDM",
-	},{
-		_id: 3,
-		username: "anggiecantik",
-		judul: "Pendapatku",
-		isi: "Lagu zaman dulu lebih ngerock",
-	},
-	{
-		_id: 4,
-		username: "yoga15",
-		judul: "Lagu abadi",
-		isi: "LAgu yang abadi, tidak lekang oleh waktu",
-	},
-	{
-		_id: 5,
-		username: "yoga15",
-		judul: "Lagu Pasaran",
-		isi: "Kebanyakan lagu sekarang pasaran, hype bentar doang",
-	}
-])
